@@ -1,7 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import styles from "./Header.module.scss";
+
+const logo = (
+  <div className={styles.logo}>
+    <Link to="/">
+      <h2>
+        <span>Shop</span>&<span>Smile</span>.
+      </h2>
+    </Link>
+  </div>
+);
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <header>
+      <div className={styles.header}>{logo}</div>
+    </header>
+  );
 };
 
 export default Header;
