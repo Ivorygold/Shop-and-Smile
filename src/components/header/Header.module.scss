@@ -50,7 +50,7 @@ header {
         a {
           color: #fff;
           &:hover {
-            color: rgb(255, 0, 255);
+            color: rgb(238, 155, 125);
           }
         }
       }
@@ -65,7 +65,7 @@ header {
       color: #fff;
       position: relative;
       &:hover {
-        color: orangered;
+        color: rgb(238, 155, 125);
       }
       &.active {
         color: var(--color-danger);
@@ -90,7 +90,7 @@ header {
       margin: 0 5px;
       color: #fff;
       &:hover {
-        color: orangered;
+        color: rgb(238, 155, 125);
       }
       &.active {
         color: var(--color-danger);
@@ -187,7 +187,7 @@ header {
         color: #fff;
         position: relative;
         &:hover {
-          color: orangered;
+          color: rgb(238, 155, 125);
         }
         p {
           position: absolute;
