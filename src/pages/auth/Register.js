@@ -28,7 +28,7 @@ const Register = () => {
         // Signed in
         const user = userCredential.user;
         // ...
-        console.log(user);
+        //console.log(user);
         setIsLoading(false);
         toast.success("Registration Successful...");
         navigate("/login");
